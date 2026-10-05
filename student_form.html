@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+
+    <h1>Student Information Form</h1>
+
+    <form>
+
+        <!-- Full Name -->
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName">
+        <br><br>
+
+        <!-- Student ID -->
+        <label for="studentID">Student ID:</label>
+        <input type="number" id="studentID" name="studentID">
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <!-- Course -->
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value="">-- Select Course --</option>
+            <option value="BSIT">BS Information Technology</option>
+            <option value="BSCS">BS Computer Science</option>
+            <option value="BSE">Bachelor of Library and Information Sciences</option>
+            <option value="BSBA">Diploma in Computer Technology</option>
+        </select>
+        <br><br>
+
+        <!-- Year Level -->
+        <label for="yearLevel">Year Level:</label>
+        <select id="yearLevel" name="yearLevel">
+            <option value="">-- Select Year Level --</option>
+            <option value="1st">1st Year</option>
+            <option value="2nd">2nd Year</option>
+            <option value="3rd">3rd Year</option>
+            <option value="4th">4th Year</option>
+        </select>
+        <br><br>
+
+        <!-- Hobbies -->
+        <label>Hobbies:</label>
+        <br>
+
+        <input type="checkbox" id="reading" name="hobbies" value="Reading">
+        <label for="reading">Reading</label>
+        <br>
+
+        <input type="checkbox" id="sports" name="hobbies" value="Sports">
+        <label for="sports">Sports</label>
+        <br>
+
+        <input type="checkbox" id="music" name="hobbies" value="Music">
+        <label for="music">Music</label>
+        <br>
+
+        <input type="checkbox" id="gaming" name="hobbies" value="Gaming">
+        <label for="gaming">Gaming</label>
+        <br>
+
+        <input type="checkbox" id="others" name="hobbies" value="Others">
+        <label for="others">Others</label>
+        <br><br>
+
+        <!-- Profile Picture -->
+        <label for="profilePicture">Upload Profile Picture:</label>
+        <input type="file" id="profilePicture" name="profilePicture" accept="image/*">
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
